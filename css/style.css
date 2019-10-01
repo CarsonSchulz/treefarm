@@ -12,15 +12,35 @@ body {
     padding: 0;
 }
 p {
-    font-size: 22px;
+    font-size: 16px;
 }
 /* Text */
 .font-jumbo {
     font-family: 'Baloo Bhaina', cursive;
 }
-.text-jumbo {
-    text-transform: uppercase;
-    font-size: 9rem;
+.heading-underline, .heading-underline-inverse {
+    display: block;
+    margin-bottom: 1rem;
+    padding-bottom: .65rem;
+    position: relative;
+    text-transform: uppercase
+}
+.heading-underline-inverse::after, .heading-underline::after {
+    border-bottom: 6px solid;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 0;
+    min-width: 2rem;
+    position: absolute;
+    width: 1em
+}
+.heading-underline::after {
+    border-bottom-color: #fc0
+}
+
+.heading-underline-inverse::after {
+    border-bottom-color: #fff
 }
 /* Images */
 /* Bootstrap Mods */
@@ -32,8 +52,56 @@ p {
     text-decoration: none;
 }
 /* Main Content */
-.intro-cont {
+.intro-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.intro-lead-cont {
+    position: relative;
     height: 100%;
     width: 100%;
+    overflow: hidden;
+}
+.intro-flex-cont {
+    position: relative;
+    z-index: 2;
+}
+.intro-down-cont {
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    z-index: 2;
+    height: 6rem;
+    width: 9rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    background-color: #fff;
     background-image: url('../images/bg/treesbg.png');
+}
+.intro-down-cont i {
+    font-size: 4rem;
+    color: #fff;
+}
+.intro-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
+}
+.about-cont {
+    background-image: url('../images/bg/treescut.png');
 }

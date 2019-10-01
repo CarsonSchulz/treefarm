@@ -1,0 +1,39 @@
+/* Globals */
+body, html {
+    height: 100% !important;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size: 22px;
+}
+/* Text */
+.font-jumbo {
+    font-family: 'Baloo Bhaina', cursive;
+}
+.text-jumbo {
+    text-transform: uppercase;
+    font-size: 9rem;
+}
+/* Images */
+/* Bootstrap Mods */
+/* Tools */
+.invisible-link {
+    text-decoration: none;
+}
+.invisible-link:hover {
+    text-decoration: none;
+}
+/* Main Content */
+.intro-cont {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/bg/treesbg.png');
+}

@@ -1,0 +1,128 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    color: #222;
+    font-family: 'Karma', serif;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+/* Typography */
+p {
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.text-header {
+    font-family: 'Caveat', cursive;
+}
+.text-shadow {
+    text-shadow: 0 0 0.2em #000;
+}
+/* Index Page */
+.header-main {
+    position: relative;
+    background-color: black;
+    height: 95%;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+.header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+}
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.header-cont {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+.header-subtext {
+    color: cornsilk;
+    font-size: 3rem;
+}
+.header-text {
+    color: cornsilk;
+    font-size: 6rem;
+}
+.about-cont {
+    background-color: cornsilk;
+    height: 80%;
+}
+.about-picture {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/backgrouds/about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: inset 3px 0px 7px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 3px 0px 7px -4px rgba(0,0,0,0.75);
+    box-shadow: inset 3px 0px 7px -4px rgba(0,0,0,0.75);
+}
+.speciality-cont {
+    height: 90%;
+    background-image: url('../images/backgrouds/leaves.png');
+    -webkit-box-shadow: inset 0px 3px 7px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 3px 7px -4px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 3px 7px -4px rgba(0,0,0,0.75);
+}
+.speciality-icon {
+    background-color: #A2BBA4;
+    border-radius: 50%;
+    padding: 2rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.speciality-icon img {
+    width: 100%;
+}
+.contact-cont {
+    background-color: #f2f1ef;
+    height: 80%;
+    -webkit-box-shadow: inset 0px 2px 7px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 2px 7px -4px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 2px 7px -4px rgba(0,0,0,0.75);
+}
+.contact-map-cont {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: inset -1px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -1px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: inset -1px 0px 3px 0px rgba(0,0,0,0.75);
+}
+.contact-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+footer {
+    background-color: #2e3131;
+    height: 30%;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Carson Schulz">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+<link href="https://fonts.googleapis.com/css?family=Caveat|Poppins:600|Karma&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="header-main">
+    <div class="header-overlay"></div>
+    <video autoplay="autoplay" muted="muted" loop="loop" class="header-video">
+        <source src="video/plantbroll.mp4" type="video/mp4">
+    </video>
+    <div class="header-cont d-flex flex-wrap align-items-center">
+        <div class="container-fluid px-5">
+            <h2 class="text-header header-subtext text-shadow">Serving businesses since XXXX</h2>
+            <h1 class="text-header header-text text-shadow">We are the plant people</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid about-cont">
+    <div class="row h-100 align-items-center">
+        <div class="col-5 pl-5 pr-3 py-5">
+                <h1 class="text-header display-4">About us</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus iaculis ante nec tristique. Morbi diam tortor, pulvinar accumsan volutpat id, finibus vel libero. Proin sed odio in libero scelerisque condimentum. Mauris orci mi, consectetur at placerat eu, eleifend id libero. Duis porta ipsum diam, nec iaculis purus rhoncus ac. Nulla fermentum lobortis pretium. Pellentesque quis sapien arcu. Sed erat justo, lacinia ac aliquam nec, suscipit sed tellus. Phasellus nec metus odio. Vestibulum eu pulvinar libero, quis vulputate velit. Aliquam hendrerit enim eget turpis varius, eget porta elit faucibus. Donec feugiat vitae sem sit amet cursus. Nulla id velit vel augue elementum posuere ac a libero.</p>
+                <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent bibendum dignissim viverra. Donec eros libero, sollicitudin eu maximus eu, tincidunt ac lacus. In tincidunt sagittis felis id tristique. Maecenas volutpat non lorem quis semper. Sed nec tempor mauris, nec blandit erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut mollis fermentum ante ornare tincidunt. Pellentesque sem arcu, dictum a nunc ac, auctor sagittis ligula.</p>
+        </div>
+        <div class="col-7 about-picture">
+        </div>
+    </div>
+</div>
+<div class="w-100 d-flex flex-wrap align-items-center speciality-cont py-5">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h1 class="text-header display-2">Our Specialities</h1>
+                <hr style="border-width: 3px;width: 20%;border-color: #222;">
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="px-2 h-100 text-center">
+                    <div class="speciality-icon mb-3">
+                        <img src="images/icons/sprout.svg">
+                    </div>
+                    <h1 class="text-header">Seeds</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus iaculis ante nec tristique. Morbi diam tortor, pulvinar accumsan volutpat id, finibus vel libero.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="px-2 h-100 text-center">
+                    <div class="speciality-icon mb-3">
+                        <img src="images/icons/trees.svg">
+                    </div>
+                    <h1 class="text-header">Trees</h1>
+                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent bibendum dignissim viverra. Donec eros libero, sollicitudin eu maximus eu, tincidunt ac lacus.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="px-2 h-100 text-center">
+                    <div class="speciality-icon mb-3">
+                        <img src="images/icons/trucking.svg">
+                    </div>
+                    <h1 class="text-header">Shipping</h1>
+                    <p>Sed vehicula justo eu velit auctor blandit. Sed suscipit nulla ut dolor ultricies, nec efficitur mauris porta. Pellentesque tempor venenatis massa, pharetra vestibulum ligula convallis et.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid contact-cont">
+    <div class="row align-items-center h-100">
+        <div class="col-6 h-100 pl-0">
+            <div class="contact-map-cont bg-primary">
+                <div id="contactMap" class="contact-map"></div>
+            </div>
+        </div>
+        <div class="col-6 pl-2 pr-5 py-5">
+            <h1 class="text-header display-2">Interested?</h1>
+            <p class="lead">So are we. Let's get in contact.</p>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="exampleInput1">First Name</label>
+                            <input type="text" class="form-control" id="exampleInput1" placeholder="Jane">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="exampleInput2">Last Name</label>
+                            <input type="text" class="form-control" id="exampleInput2" placeholder="Doe">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInput3">Email Address</label>
+                        <input type="email" class="form-control" id="exampleInput3" placeholder="janedoe@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInput4">What are you interested in?</label>
+                        <textarea class="form-control" id="exampleInput4" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-outline-dark btn-lg">Submit</button>
+                </form>
+        </div>
+    </div>
+</div>
+<footer class="container-fluid px-5">
+        <div class="text-center h-100 d-flex flex-wrap align-items-center justify-content-center">
+            <h1 class="text-white">Footer</h1>
+        </div>
+</footer>
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+<script src="js/map.js"></script>
+</body>
+</html>

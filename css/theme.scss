@@ -1,0 +1,17 @@
+//  Colors
+$theme-colors: (
+  "primary": #207a49,
+);
+
+//  Text
+$display1-weight:             500;
+$display2-weight:             500;
+$display3-weight:             500;
+$display4-weight:             500;
+
+//  Elements
+$border-radius:               0;
+$border-radius-lg:            0;
+$border-radius-sm:            0;
+
+@import "../node_modules/bootstrap/scss/bootstrap";

@@ -6,147 +6,36 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Carson Schulz">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous" />
-<link href="https://fonts.googleapis.com/css?family=Nunito|Roboto:400,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css">
-<link href="css/theme.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha256-c+C87jupO1otD1I5uyxV68WmSLCqtIoNlcHLXtzLCT0=" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/bootstrap-grid.css" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Nunito&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<nav class="navbar navbar-expand-lg main-nav navbar-dark main-nav-noscroll fixed-top px-5" id="mainNavJS">
-        <a class="navbar-brand" href="#">
-            <img src="images/logo.png" class="main-nav-logo" alt="Site logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mainNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item px-3 active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-            </ul>
-        </div>        
-</nav>
-<div class="header-main">
-    <div class="header-overlay"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="header-video">
-    <source src="video/plantvid.mp4" type="video/mp4">
-    </video>
-
-    <div class="header-cont d-flex flex-wrap align-items-center">
+    <div class="header-main">
+        <div class="header-overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="header-video">
+            <source src="videos/plantvid.mp4" type="video/mp4">
+        </video>
+        <div class="header-cont">
+            <div class="container">
+                <h1 class="header-text">Transforming your business.</h1>
+            </div>
+        </div>
+    </div>
+    <div class="about-cont py-5">
         <div class="container">
-            <h1 class="header-text">Transforming your business</h1>
-        </div>
-    </div>
-</div>
-<div class="container-fluid about-cont d-flex flex-wrap align-items-center py-5">
-    <div class="row align-items-center h-100">
-        <div class="col-md-5 px-5">
-            <div class="about-pic shadow"></div>
-        </div>
-        <div class="col-md-7 pr-5 mt-5 mt-md-0">
-            <h1 class="display-4 heading-underline">About Us</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed augue lacus viverra. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Rutrum quisque non tellus orci. Tortor at auctor urna nunc id cursus metus. Sodales neque sodales ut etiam sit. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis.</p>
-            <p>Urna et pharetra pharetra massa massa ultricies mi quis. Pellentesque sit amet porttitor eget dolor morbi non arcu. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Et netus et malesuada fames ac turpis egestas maecenas pharetra. Morbi non arcu risus quis varius quam quisque id. Vitae semper quis lectus nulla at volutpat diam. Tellus at urna condimentum mattis pellentesque. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Egestas dui id ornare arcu odio ut sem nulla pharetra. Commodo elit at imperdiet dui accumsan. Ultrices eros in cursus turpis.</p>
-        </div>
-    </div>
-</div>
-<div class="specialty-cont d-flex flex-wrap align-items-center py-5">
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col-12 text-center">
-                <h1 class="display-4">Our Specialties</h1>
-                <hr style="border-color: #207a49; width: 25%; border-width: 3px;">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-4 text-center">
-                <div class="specialty-icon mx-auto mb-4">
-                    <img src="images/icons/sprout.svg" alt="Sprout icon">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-2 order-md-1">
+                    <h1 class="display-4">Our Story</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
-                <h2>Growing</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam erat velit scelerisque in dictum non. Tortor id aliquet lectus proin nibh nisl condimentum id venenatis.</p>
-            </div>
-            <div class="col-12 col-md-4 text-center">
-                <div class="specialty-icon mx-auto mb-4">
-                    <img src="images/icons/trees.svg" alt="Sprout icon">
+                <div class="col-md-6 text-center order-1 order-md-2">
+                    <img src="images/sections/pots.jpg" class="img-fluid shadow rounded mb-4 mb-md-0" alt="Potted plants">
                 </div>
-                <h2>Trees</h2>
-                <p>Cras semper auctor neque vitae tempus quam pellentesque nec. Pellentesque elit eget gravida cum sociis. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor.</p>
-            </div>
-            <div class="col-12 col-md-4 text-center">
-                <div class="specialty-icon mx-auto mb-4">
-                    <img src="images/icons/delivery-truck.svg" alt="Sprout icon">
-                </div>
-                <h2>Shipping</h2>
-                <p>Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. Imperdiet nulla malesuada pellentesque elit eget.</p>
             </div>
         </div>
     </div>
-</div>
-<div class="contact-cont d-flex flex-wrap align-items-center p-5">
-    <div class="container-fluid">
-        <div class="row h-100 w-100 align-items-center">
-            <div class="col-12 col-lg-7">
-                <h1 class="display-4">Interested?</h1>
-                <p class="lead">So are we. Let's get in touch.</p>
-                <form>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="exinput1">First Name</label>
-                            <input type="text" class="form-control" id="exinput1" placeholder="Jane">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="exinput2">Last Name</label>
-                            <input type="text" class="form-control" id="exinput2" placeholder="Doe">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="exinput3">Email Address</label>
-                        <input type="email" class="form-control" id="exinput3" placeholder="janedoe@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="exinput4">Anything to say?</label>
-                        <textarea class="form-control" id="exinput4" rows="6"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-outline-primary btn-lg">Submit</button>
-                </form>
-            </div>
-            <div class="col-lg-5 d-none d-lg-block">
-                <div class="contact-map-placeholder shadow"></div>
-            </div>
-        </div>        
-    </div>
-</div>
-<footer class="d-flex flex-wrap align-items-center py-5">
-    <div class="container-fluid px-5">
-        <div class="row align-items-center">
-            <div class="col-md-6 text-left">
-                <img src="images/logo.png" class="img-fluid" alt="Site logo">
-            </div>
-            <div class="col-md-6 footer-credits text-center text-md-right mt-5 mt-md-0">
-                <p>&copy; Hibernia Nursery. All rights reserved.</p>
-                <p>Sites made by <a href="https://carsons.me/" target="_blank">Carson</a></p>
-            </div>
-        </div>
-    </div>
-</footer>
-<script src="js/nav.js"></script>
 </body>
 </html>

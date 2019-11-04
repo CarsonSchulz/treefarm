@@ -1,3 +1,6 @@
+html {
+    overflow-x: hidden;
+}
 body {
     color: #212121;
     font-family: 'Nunito', Sans-Serif;
@@ -59,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 100%;
     height: auto; 
 }
-/* Main Content */
+/* Navigation */
 .navbar-main {
     text-transform: uppercase;
     font-size: 20px;
@@ -103,6 +106,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 85px;
     width: auto;
 }
+/* Main Page */
 .header-main {
     position: relative;
     background-color: black;
@@ -216,6 +220,24 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 2px solid #212121;
     color: #212121;
 }
+/* Other Pages */
+.page-header {
+    min-height: calc(60vh + 100px);
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.page-header h1 {
+    font-weight: 800;
+    color: #fff;
+    font-size: calc(5 * (1vw + 1vh - 1vmin));
+    text-transform: uppercase;
+}
+/* Footer */
 footer {
     background-color: #3e3e3e;
     color: rgba(255, 255, 255, 0.60);

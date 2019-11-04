@@ -1,3 +1,10 @@
+.fixed-top {
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030; }
+
 *,
 *::before,
 *::after {
@@ -1960,7 +1967,7 @@ button.bg-dark:focus {
   position: sticky !important; }
 
 .fixed-top {
-  position: fixed !important;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;

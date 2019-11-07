@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Other Pages */
 .page-header {
-    min-height: calc(60vh + 100px);
+    min-height: calc(47vh + 100px);
     padding-top: 100px;
     display: flex;
     flex-wrap: wrap;
@@ -236,6 +236,27 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     font-size: calc(5 * (1vw + 1vh - 1vmin));
     text-transform: uppercase;
+}
+.page-content-small {
+    min-height: 70vh;
+    display: flex; 
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.availability-table-cont {
+    width: 100%;
+    overflow-x: auto;
+}
+.availability-table {
+    border: 1px solid rgba(228, 228, 228, 0.7);
+    width: 100%;
+}
+.availability-table tr:nth-child(even) {
+    background-color: rgba(228, 228, 228, 0.7);
+}
+.availability-table td, th {
+    vertical-align: middle;
+    padding: 0.5rem 2rem 0.5rem 8px;
 }
 /* Footer */
 footer {

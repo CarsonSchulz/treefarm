@@ -11,7 +11,7 @@ require('includes/head.php');
             <h1>About Us</h1>
         </div>
     </div>
-    <div class="page-content leading-shadow">
+    <div class="page-content-small leading-shadow">
         <div class="container-custom py-5">
             <div class="row align-items-center">
                 <div class="col-lg-7 order-2 order-lg-1">

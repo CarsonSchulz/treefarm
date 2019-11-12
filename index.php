@@ -21,8 +21,10 @@ require('includes/head.php');
         <div class="container-custom py-5">
             <div class="row align-items-center">
                 <div class="col-md-6 order-2 order-md-1" data-aos="fade-right">
-                    <h1 class="display-4">Our Story</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h1 class="display-4">About Us</h1>
+                    <p>Hibernia Nursery was founded in 2001 by people devoted to providing quality products at competitive prices. Though hard work, devotion to service and dedication to detail, we have earned a reputation for having the best quality plant material available. Customer satisfaction is our number one priority, and we pride ourselves on exceeding expectations. We are constantly monitoring trends, looking for the latest advancements in plant sciences, and updating our inventory to include new products as well as patented brands such as Star Roses, Encore Azaleas, Southern Living Plant Collection, and First Editions.</p>
+                    <p>Hibernia Nursery takes pride in its brand, and its dedicated staff. We consider our employees like family, and strive to give them the best and safest workplace possible while always promoting from within.</p>
+                    <p>We are also proud members of the Florida Nursery, Growers and Landscape Association (FNGLA). As members of FNGLA, we actively monitor and participate in activities that impact our industry.</p>
                 </div>
                 <div class="col-md-5 offset-lg-1 order-md-2 order-1" data-aos="fade-left">
                     <img src="images/sections/overview.jpg" class="img-fluid shadow rounded-sm mb-4 mb-md-0" alt="Potted plants">

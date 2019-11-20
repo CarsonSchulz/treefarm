@@ -83,7 +83,8 @@ require('includes/head.php');
                         <label for="contactEmail">E-mail</label>
                         <input type="email" id="contactEmail" name="contactEmail" placeholder="jd@example.com" class="contact-input mb-4">
                         <label for="contactMsg">Message</label>
-                        <textarea class="contact-input" id="contactMsg" name="contactMsg" rows="1" placeholder="Short message for us." style="resize: vertical;"></textarea>
+                        <textarea class="contact-input" id="contactMsg" name="contactMsg" rows="6" placeholder="Short message for us." style="resize: vertical;"></textarea>
+                        <button type="submit" class="button button-contact mt-4">Send</button>
                     </form>
                 </div>
                 <div class="col-md-5 offset-lg-1 order-md-2 order-1" data-aos="zoom-in">

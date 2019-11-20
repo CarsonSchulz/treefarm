@@ -7,7 +7,6 @@ body {
 }
 /* Text */
 p {
-    font-size: 18px;
     line-height: 1.7rem;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -56,6 +55,46 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.4);
     -webkit-box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.4);
     -moz-box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.4);
+}
+.button {
+    z-index: 1;
+    position: relative;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    outline: none;
+    transition: color 0.25s ease-in-out;
+}
+.button::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform-origin: center right;
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+}
+.button:hover {
+    cursor: pointer;
+    color: #212121;
+}
+.button:hover::before {
+    transform-origin: center left;
+    transform: scaleX(1);
+}
+.button-contact {
+    color: #2F760F;
+    border: 2px solid #4cbb17;
+    background-color: transparent;
+    width: 30%;
+    border-radius: 4px;
+}
+.button-contact::before {
+    background-color: #4cbb17;
 }
 /* Images */
 .img-fluid {
@@ -151,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 .header-text {
     font-weight: 800;
     color: #fff;
-    font-size: calc(6 * (1vw + 1vh - 1vmin));
+    font-size: calc(5 * (1vw + 1vh - 1vmin));
     text-transform: uppercase;
 }
 .about-cont {
@@ -212,14 +251,6 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
     width: 100%;
 }
-.contact-input {
-    width: 100%;
-    margin-top: 0.6rem;
-    padding: 0.7rem 0;
-    border: 0;
-    border-bottom: 2px solid #212121;
-    color: #212121;
-}
 /* Other Pages */
 .page-header {
     min-height: calc(47vh + 100px);
@@ -257,6 +288,15 @@ h1, h2, h3, h4, h5, h6 {
 .availability-table td, th {
     vertical-align: middle;
     padding: 0.5rem 2rem 0.5rem 8px;
+}
+.contact-input {
+    width: 100%;
+    margin: 8px 0;
+    background-color: #eeeeee;
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 /* Footer */
 footer {

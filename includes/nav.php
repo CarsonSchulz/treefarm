@@ -1,11 +1,10 @@
 <?php
 $activePage = basename($_SERVER['PHP_SELF'], ".php");
 ?>
-
 <nav class="navbar navbar-expand-lg navbar-dark navbar-main fixed-top" id="mainNavJS">
     <div class="container-custom">
     <a class="navbar-brand" href="index.php">
-        <img src="images/logo.png" class="navbar-main-logo" alt="Hibernia Nursery logo"> 
+        <img src="images/logo_w.png" class="navbar-main-logo" alt="Hibernia Nursery logo" id="navbarMainLogo"> 
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -23,7 +22,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
                 <a class="nav-link" href="locations.php">Other Locations</a>
             </li>
             <li class="nav-item mx-lg-2 <?= ($activePage == 'contact') ? 'active':''; ?>">
-                <a class="nav-link disabled" href="contact.php">Contact</a>
+                <a class="nav-link" href="contact.php">Contact</a>
             </li>
         </ul>
     </div>

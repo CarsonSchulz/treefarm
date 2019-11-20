@@ -1,6 +1,5 @@
 $primary: #4cbb17;
 
-
 // Required
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
@@ -14,13 +13,18 @@ $primary: #4cbb17;
     z-index: $zindex-fixed;
 }
 
+@include media-breakpoint-up(lg) {
+    .header-text {
+        font-size: calc(6 * (1vw + 1vh - 1vmin)) !important;
+    }
+}
 @include media-breakpoint-down(lg) {
     .navbar-main {
         background-color: #212121d7;
     }
     .navbar-main-noscroll {
         background-color: #212121d7 !important;
-        background-image: none;
+        background-image: none !important;
     }
 }
 

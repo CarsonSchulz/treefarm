@@ -271,7 +271,8 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 .page-header h1 {
-    font-weight: 800;
+    font-weight: 700;
+    letter-spacing: 5px;
     color: #fff;
     font-size: calc(5 * (1vw + 1vh - 1vmin));
     text-transform: uppercase;

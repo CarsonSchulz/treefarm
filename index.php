@@ -78,12 +78,9 @@ require('includes/head.php');
                     <h1 class="display-4">Interested?</h1>
                     <p class="lead mt-0 text-primary">So are we! Let's get in touch.</p>
                     <form>
-                        <label for="contactName">Your Name</label>
-                        <input type="text" id="contactName" name="contactName" placeholder="John Doe" class="contact-input mb-4">
-                        <label for="contactEmail">E-mail</label>
-                        <input type="email" id="contactEmail" name="contactEmail" placeholder="jd@example.com" class="contact-input mb-4">
-                        <label for="contactMsg">Message</label>
-                        <textarea class="contact-input" id="contactMsg" name="contactMsg" rows="6" placeholder="Short message for us." style="resize: vertical;"></textarea>
+                        <input type="text" id="contactName" name="contactName" placeholder="Your Name" class="contact-input mb-4">
+                        <input type="email" id="contactEmail" name="contactEmail" placeholder="Your Email" class="contact-input mb-4">
+                        <textarea class="contact-input" id="contactMsg" name="contactMsg" rows="6" placeholder="A short message for us." style="resize: vertical;"></textarea>
                         <button type="submit" class="button button-contact mt-4">Send</button>
                     </form>
                 </div>

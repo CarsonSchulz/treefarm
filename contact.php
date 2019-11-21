@@ -43,10 +43,6 @@ require('includes/head.php');
                     <span>Fax: (407) 960-1854</span>
                 </div>
             </div>
-            <div class="row align-items-center">
-                <div class="col-12 py-5">
-                </div>
-            </div>
         </div>
 
     </div>

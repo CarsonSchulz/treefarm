@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha256-GqiEX9BuR1rv5zPU5Vs2qS/NSHl1BJyBcjQYJ6ycwD4=" crossorigin="anonymous" />
 <link rel="stylesheet" href="css/theme.css" />
 <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Nunito:300,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.1.0/css/line-awesome.min.css">
 <link rel="stylesheet" href="css/style.css" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">

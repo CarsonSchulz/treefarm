@@ -14,9 +14,15 @@ require('includes/head.php');
     <div class="page-content leading-shadow">
         <div class="container-custom py-5">
             <div class="row align-items-center">
-                <div class="col-lg-10 order-2 order-lg-1">
+                <div class="col-lg-10">
                     <h1 class="display-4">Our Inventory</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <label for="availTableFilter"><b>Filter table:</b></label>
+                    <input type="text" id="availTableFilter" placeholder="Juniper - Blue Pacific" class="contact-input mb-4" onkeyup="filterTable()">
                 </div>
             </div>
             <div class="row">
@@ -26,6 +32,8 @@ require('includes/head.php');
                             <thead>
                                 <tr>
                                     <th scope="col">Name</th>
+                                    <th scope="col">Scientific Name</th>
+                                    <th scope="col">Size</th>
                                     <th scope="col">Height</th>
                                     <th scope="col">Width</th>
                                 </tr>
@@ -34,9 +42,9 @@ require('includes/head.php');
                             </tbody>
                         </table>                        
                     </div>
-
                 </div>
             </div>
+            <div class="availability-spinner mx-auto my-5" id="availabilitySpinner"></div>
         </div>
 
     </div>

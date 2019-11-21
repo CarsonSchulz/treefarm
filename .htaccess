@@ -1,12 +1,12 @@
-ErrorDocument 400 /error.php
+ErrorDocument 400 https://carsons.me/cap4102/error.php
 
-ErrorDocument 401 /error.php
+ErrorDocument 401 https://carsons.me/cap4102/error.php
 
-ErrorDocument 403 /error.php
+ErrorDocument 403 https://carsons.me/cap4102/error.php
 
-ErrorDocument 404 /error.php
+ErrorDocument 404 https://carsons.me/cap4102/error.php
 
-ErrorDocument 500 /error.php
+ErrorDocument 500 https://carsons.me/cap4102/error.php
 
 <Files .htaccess>
 order allow,deny

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <?php 
 $pageTitle = "Hibernia Nursery - About Us";
 require('includes/head.php');

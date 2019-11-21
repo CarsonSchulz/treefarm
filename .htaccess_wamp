@@ -1,0 +1,16 @@
+ErrorDocument 400 /treefarm/error.php
+
+ErrorDocument 401 /treefarm/error.php
+
+ErrorDocument 403 /treefarm/error.php
+
+ErrorDocument 404 /treefarm/error.php
+
+ErrorDocument 500 /treefarm/error.php
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+Options All -Indexes

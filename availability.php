@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <?php 
 $pageTitle = "Hibernia Nursery - Availability";
 require('includes/head.php');
@@ -51,6 +51,7 @@ require('includes/head.php');
     <?php require('includes/footer.php');?>
     <?php require('includes/scripts.php');?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.2/tabletop.min.js" integrity="sha256-HAn0pK4aNWJ/vplAt/P9KEWESSSIb2kH93O2eVbC3+k=" crossorigin="anonymous"></script>
+    <script src="js/nav.js"></script>
     <script src="js/availability.js"></script>
 </body>
 </html>

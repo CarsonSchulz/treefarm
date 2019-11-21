@@ -1,4 +1,4 @@
-$primary: #4cbb17;
+$primary: #265D0B;
 
 // Required
 @import "../node_modules/bootstrap/scss/functions";
@@ -25,6 +25,9 @@ $primary: #4cbb17;
     .navbar-main-noscroll {
         background-color: #212121d7 !important;
         background-image: none !important;
+    }
+    .navbar-main-404 {
+        background-color: #fff !important;
     }
 }
 

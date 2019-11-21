@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <?php 
 $pageTitle = "Hibernia Nursery - Home";
 require('includes/head.php');
@@ -33,7 +33,7 @@ require('includes/head.php');
         </div>
     </div>
     <div class="specialty-cont">
-        <img src="images/sections/whitewave.svg" class="wave-break">
+        <img src="images/sections/whitewave.svg" class="wave-break" alt="Web wave break">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -92,6 +92,7 @@ require('includes/head.php');
     </div>
     <?php require('includes/footer.php');?>
     <?php require('includes/scripts.php');?>
+    <script src="js/nav.js"></script>
     <script>AOS.init();</script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <?php 
 $pageTitle = "Hibernia Nursery - Locations";
 require('includes/head.php');
@@ -27,5 +27,6 @@ require('includes/head.php');
     </div>
     <?php require('includes/footer.php');?>
     <?php require('includes/scripts.php');?>
+    <script src="js/nav.js"></script>
 </body>
 </html>

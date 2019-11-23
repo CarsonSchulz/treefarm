@@ -47,7 +47,7 @@ require('includes/head.php');
                             <img src="images/icons/sprout.svg" alt="Sprout Icon">
                         </div>
                         <h1 class="display-5 mt-4">Growing</h1>
-                        <p>Sem integer vitae justo eget magna fermentum iaculis eu. Maecenas pharetra convallis posuere morbi leo urna molestie. Dolor sit amet consectetur adipiscing elit ut aliquam purus sit.</p>
+                        <p>We rely on the latest technology and growing techniques to develop beautiful, hardy, disease and insect free products. Our professional staff grow our own liners from either cutting or seed in our carefully monitored and controlled greenhouses. Only plant material that meets our demands for highest quality will be presented for sale.</p>
                     </div>
                 </div>
                 <div class="col-md-4 px-2 my-4" data-aos="flip-down">
@@ -55,8 +55,8 @@ require('includes/head.php');
                         <div class="specialty-icon mx-auto">
                             <img src="images/icons/trees.svg" alt="Trees Icon">
                         </div>
-                        <h1 class="display-5 mt-4">Trees</h1>
-                        <p>Cras semper auctor neque vitae tempus quam pellentesque nec. Pellentesque elit eget gravida cum sociis. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor.</p>
+                        <h1 class="display-5 mt-4">Trees/Shrubs</h1>
+                        <p>We offer a wide selection of quality trees and shrubs. Our trees come in 1, 3, 7, and 15-gallon containers that along with our shrubs will accommodate most any landscaping needs concerning size, shape and color. As with all our products, only trees and shrubs that meet or exceed our quality expectations will be permitted to leave our farm.</p>
                     </div>
                 </div>
                 <div class="col-md-4 px-2 my-4" data-aos="flip-down">
@@ -65,7 +65,7 @@ require('includes/head.php');
                             <img src="images/icons//delivery-truck.svg" alt="Truck Icon">
                         </div>
                         <h1 class="display-5 mt-4">Shipping</h1>
-                        <p>Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. Imperdiet nulla malesuada pellentesque elit eget.</p>
+                        <p>We serve a large geographic area. Our shipments go all the way up the east coast to New York, and west to Tennessee and Texas. We handle the details and broker our own trucks. <a href="contact.php" class="text-white text-underline">Contact us</a> for fair and reasonable pricing. We will be happy to answer all your questions.</p>
                     </div>
                 </div>
             </div>

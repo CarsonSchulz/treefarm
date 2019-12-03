@@ -19,7 +19,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
                 <a class="nav-link" href="availability.php">Availability</a>
             </li>
             <li class="nav-item mx-lg-2 <?= ($activePage == 'locations') ? 'active':''; ?>">
-                <a class="nav-link" href="locations.php">Other Locations</a>
+                <a class="nav-link" href="locations.php">Locations</a>
             </li>
             <li class="nav-item mx-lg-2 <?= ($activePage == 'contact') ? 'active':''; ?>">
                 <a class="nav-link" href="contact.php">Contact</a>
